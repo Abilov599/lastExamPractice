@@ -1,0 +1,25 @@
+.card-row {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    padding: 30px 15px;
+    border: 0.5px solid gray;
+    div {
+      margin-top: -100px;
+      width: 40%;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+}

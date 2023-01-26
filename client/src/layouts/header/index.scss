@@ -1,0 +1,41 @@
+header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  .container {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+      ul {
+        align-items: center;
+        display: flex;
+        gap: 30px;
+        li {
+          a {
+            padding: 10px 0;
+            color: black;
+            &:hover {
+              color: #7971ea;
+            }
+            &.active {
+              border-bottom: 1px solid #7971ea;
+            }
+          }
+        }
+      }
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      button {
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        background-color: #7971ea;
+        border-radius: 30px;
+      }
+    }
+  }
+}

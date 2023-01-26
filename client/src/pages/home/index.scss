@@ -1,0 +1,191 @@
+main {
+  .top-section {
+    background: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    padding: 90px 0;
+    .content {
+      padding: 200px 0;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      column-gap: 100px;
+      justify-content: center;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+      }
+      .left-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 570px;
+        h1 {
+          color: white;
+          margin-bottom: 20px;
+        }
+        p {
+          color: gray;
+        }
+        span {
+          button {
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            background-color: #7971ea;
+            border-radius: 30px;
+          }
+        }
+      }
+      .right-div {
+        border-radius: 8px;
+        background-color: white;
+        max-width: 445px;
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        h1 {
+          margin-bottom: 20px;
+        }
+        input {
+          padding: 15px 10px;
+          font-size: 1rem;
+          margin-bottom: 15px;
+          border-radius: 3px;
+          border: 1px solid gray;
+          outline-color: #7971ea;
+        }
+        span {
+          button {
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            background-color: #7971ea;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+  .middle-section {
+    padding: 100px 0;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      .head-text {
+        text-align: center;
+        max-width: 635px;
+      }
+      .top-content {
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          row-gap: 50px;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left-content {
+          width: 50%;
+          img {
+            width: 100%;
+          }
+        }
+        .right-content {
+          max-width: 350px;
+        }
+      }
+      .bottom-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          row-gap: 50px;
+        }
+        .left-content {
+          width: 50%;
+          img {
+            width: 100%;
+          }
+        }
+        .right-content {
+          max-width: 350px;
+        }
+      }
+    }
+  }
+  .bottom-section {
+    padding: 100px 0;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      .head-text {
+        text-align: center;
+        max-width: 635px;
+        margin-bottom: 120px;
+      }
+    }
+  }
+  .message-section {
+    .container {
+      max-width: 635px;
+      .head-text {
+        margin-bottom: 40px;
+        h1 {
+          margin-bottom: 10px;
+          font-size: 48px;
+        }
+        p {
+          font-size: 17.5px;
+        }
+      }
+      .form {
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .fullname-input {
+            display: flex;
+            justify-content: space-between;
+            input {
+              outline: #7971ea;
+              padding: 15px 10px;
+              width: 48%;
+            }
+          }
+          input {
+            padding: 15px 10px;
+            outline: #7971ea;
+          }
+          textarea {
+            padding: 15px 10px;
+            outline: #7971ea;
+          }
+          .btn {
+            button {
+              border-radius: 30px;
+              border: none;
+              color: white;
+              padding: 15px 0;
+              background-color: #7971ea;
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
